@@ -1,6 +1,8 @@
 # www.appgramming.com
 The source code for the Appgramming website, built using [Jekyll](https://jekyllrb.com/).
 
+![Appgramming Website Screenshot](screenshot.png)
+
 ## About Appgramming
 
 Appgramming is a minimalist app developer that tries to simplify and improve computing tasks using minimal design and a different approach. Appgramming is the home of [LoneColor](https://www.appgramming.com/lonecolor/), the zero-interface app for Windows and Android.
