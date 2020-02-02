@@ -1,0 +1,213 @@
+# -----------------------------------------------------------------------------
+# Download logos
+#------------------------------------------------------------------------------
+
+- id: "osi"
+  link: "http://opensource.org/"
+  image: "/third/other/osi/osi-standard-logo.png"
+  alt: "Open Source Initiative (OSI)"
+
+# GitHub
+
+- id: "github-lonecolor-windows"
+  link: "https://github.com/appgramming/LoneColor-Windows"
+  image: "/third/other/github/github-mark.svg"
+  alt: "GitHub"
+
+- id: "github-framedummy-windows"
+  link: "https://github.com/appgramming/"
+  image: "/third/other/github/github-mark.svg"
+  alt: "GitHub"
+
+# Softpedia Clean Award
+
+- id: "softpedia-clean-lonecolor-windows"
+  link: "http://www.softpedia.com/get/Desktop-Enhancements/Screensavers/LoneColor.shtml#status"
+  image: "/third/reviews/s/softpedia/softpedia-clean-award.png"
+  alt: "Softpedia Clean Award"
+
+- id: "softpedia-clean-framedummy-windows"
+  link: "http://www.softpedia.com/get/Desktop-Enhancements/Other-Desktop-Enhancements/FrameDummy.shtml#status"
+  image: "/third/reviews/s/softpedia/softpedia-clean-award.png"
+  alt: "Softpedia Clean Award"
+
+# Software Informer Clean Award
+
+- id: "software-informer-clean-lonecolor-windows"
+  link: "http://lonecolor.software.informer.com/awards/"
+  image: "/third/reviews/s/software-informer/software-informer-clean-award.png"
+  alt: "Software Informer Clean Award"
+
+- id: "software-informer-clean-framedummy-windows"
+  link: "http://framedummy.software.informer.com/awards/"
+  image: "/third/reviews/s/software-informer/software-informer-clean-award.png"
+  alt: "Software Informer Clean Award"
+
+
+# -----------------------------------------------------------------------------
+# Review logos
+#------------------------------------------------------------------------------
+
+# AddictiveTips
+
+- id: "addictivetips-lonecolor-windows"
+  link: "http://www.addictivetips.com/windows-tips/lonecolor-quickly-set-any-solid-color-as-desktop-background/"
+  image: "/third/reviews/a/addictivetips/addictivetips.png"
+  alt: "AddictiveTips"
+
+- id: "addictivetips-framedummy-windows"
+  link: "http://www.addictivetips.com/windows-tips/create-app-mockups-or-get-a-resizable-dummy-window-framedummy/"
+  image: "/third/reviews/a/addictivetips/addictivetips.png"
+  alt: "AddictiveTips"
+
+# Baixaki
+
+- id: "baixaki-lonecolor-windows"
+  link: "http://www.baixaki.com.br/download/lonecolor.htm"
+  image: "/third/reviews/b/baixaki/baixaki.png"
+  alt: "Baixaki"
+
+- id: "baixaki-framedummy-windows"
+  link: "http://www.baixaki.com.br/download/framedummy.htm"
+  image: "/third/reviews/b/baixaki/baixaki.png"
+  alt: "Baixaki"
+
+# BetaNews
+
+- id: "betanews-lonecolor"
+  link: "http://betanews.com/2015/05/01/set-your-wallpaper-to-a-single-shade-with-lonecolor/"
+  image: "/third/reviews/b/betanews/betanews.png"
+  alt: "BetaNews"
+
+# CNET
+
+- id: "cnet-lonecolor-windows"
+  link: "http://download.cnet.com/LoneColor/3000-2072_4-75891318.html"
+  image: "/third/reviews/c/cnet/cnet.png"
+  alt: "CNET"
+
+- id: "cnet-framedummy-windows"
+  link: "http://download.cnet.com/FrameDummy/3000-2072_4-75891312.html"
+  image: "/third/reviews/c/cnet/cnet.png"
+  alt: "CNET"
+
+# Download3K
+
+- id: "download3k-lonecolor-windows"
+  link: "http://www.download3k.com/Desktop-Enhancements/Other-enhancements/Download-FrameDummy.html"
+  image: "/third/reviews/d/download3k/download3k.png"
+  alt: "Download3K"
+
+- id: "download3k-lonecolor-android"
+  link: "http://www.download3k.com/Desktop-Enhancements/Themes-wallpapers/Download-LoneColor-for-Android.html"
+  image: "/third/reviews/d/download3k/download3k.png"
+  alt: "Download3K"
+
+# Freeware.de
+
+- id: "freeware-de-lonecolor-windows"
+  link: "http://www.freeware.de/download/lonecolor-for-windows/?utm_source=badge&#038;utm_medium=BA&#038;utm_campaign=badge_manufacturer"
+  image: "/third/reviews/f/freeware-de/freeware-de.png"
+  alt: "Freeware.de"
+
+- id: "freeware-de-framedummy-windows"
+  link: "http://www.freeware.de/download/framedummy/?utm_source=badge&utm_medium=BA&utm_campaign=badge_manufacturer"
+  image: "/third/reviews/f/freeware-de/freeware-de.png"
+  alt: "Freeware.de"
+
+# GIGA
+
+- id: "giga-lonecolor-windows"
+  link: "http://www.giga.de/downloads/lonecolor/"
+  image: "/third/reviews/g/giga/giga.png"
+  alt: "GIGA"
+
+# Globedia
+
+- id: "globedia-lonecolor-windows"
+  link: "http://globedia.com/lonecolor-configura-color-solido-fondo-escritorio-rapidamente"
+  image: "/third/reviews/g/globedia/globedia.png"
+  alt: "Globedia"
+
+# I Love Free Software
+
+- id: "ilovefreesoftware-lonecolor-windows"
+  link: "http://www.ilovefreesoftware.com/30/windows/desktop-enhancement/set-desktop-background-to-solid-color-with-lonecolor.html"
+  image: "/third/reviews/i/ilovefreesoftware/ilovefreesoftware.png"
+  alt: "I Love Free Software"
+
+# PC Advisor
+
+- id: "pcadvisor-lonecolor"
+  link: "http://www.pcadvisor.co.uk/downloads/3330403/lonecolor-30080/"
+  image: "/third/reviews/p/pcadvisor/pcadvisor.png"
+  alt: "PC Advisor"
+
+# PCnet
+
+- id: "pcnet-lonecolor-windows"
+  link: "http://www.pcnet.com.tr/pcnet-dergi/haziran-2015/"
+  image: "/third/reviews/p/pcnet/pcnet.png"
+  alt: "PCnet"
+
+# Rocky Bytes
+
+- id: "rockybytes-lonecolor-windows"
+  link: "http://www.rockybytes.com/lonecolor"
+  image: "/third/reviews/r/rockybytes/rockybytes.png"
+  alt: "Rocky Bytes"
+
+- id: "rockybytes-framedummy-windows"
+  link: "http://www.rockybytes.com/framedummy"
+  image: "/third/reviews/r/rockybytes/rockybytes.png"
+  alt: "Rocky Bytes"
+
+# Softpedia
+
+- id: "softpedia-lonecolor-windows"
+  link: "http://www.softpedia.com/get/Desktop-Enhancements/Screensavers/LoneColor.shtml"
+  image: "/third/reviews/s/softpedia/softpedia.png"
+  alt: "Softpedia"
+
+- id: "softpedia-lonecolor-android"
+  link: "http://mobile.softpedia.com/android/LoneColor-Android-Review-1485.html"
+  image: "/third/reviews/s/softpedia/softpedia.png"
+  alt: "Softpedia"
+
+- id: "softpedia-framedummy-windows"
+  link: "http://www.softpedia.com/get/Desktop-Enhancements/Other-Desktop-Enhancements/Portable-FrameDummy.shtml"
+  image: "/third/reviews/s/softpedia/softpedia.png"
+  alt: "Softpedia"
+
+# Software Crew
+
+- id: "softwarecrew-lonecolor"
+  link: "http://www.softwarecrew.com/2015/05/set-your-wallpaper-to-a-single-shade-with-lonecolor/"
+  image: "/third/reviews/s/softwarecrew/softwarecrew.png"
+  alt: "Softwarecrew"
+
+# Software Informer
+
+- id: "software-informer-excellent-lonecolor-windows"
+  link: "http://lonecolor.software.informer.com/"
+  image: "/third/reviews/s/software-informer/software-informer-excellent-award.png"
+  alt: "Software Informer Editor's Pick Award"
+
+- id: "software-informer-excellent-framedummy-windows"
+  link: "http://framedummy.software.informer.com/"
+  image: "/third/reviews/s/software-informer/software-informer-excellent-award.png"
+  alt: "Software Informer Editor's Pick Award"
+
+# Techworld
+
+- id: "techworld-lonecolor"
+  link: "http://www.techworld.com/download/system-desktop-tools/lonecolor-30080-3330403/"
+  image: "/third/reviews/t/techworld/techworld.png"
+  alt: "Techworld"
+
+# Web User
+
+- id: "webuser-lonecolor-windows"
+  link: "http://forum.webuser.co.uk/showthread.php?t=135418"
+  image: "/third/reviews/w/webuser/webuser.png"
+  alt: "Web User"

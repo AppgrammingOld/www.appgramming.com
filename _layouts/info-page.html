@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="apg-info-jumbotron">
+    <div class="container">
+        <h1 class="apg-info-jumbotron-title">
+            {% if page.section-title %}
+                <a class="apg-title-link" href="{{site.url}}{{ page.section-url }}">
+                    {{ page.section-title}}
+                </a>
+                &raquo; 
+            {% endif %}
+            {{ page.page-title }}
+        </h1>
+    </div>
+</div> <!-- .apg-info-jumbotron -->
+
+<main class="apg-site-main">
+    <div class="container">
+        {{ content }}
+    </div>
+</main> <!-- .apg-site-main -->

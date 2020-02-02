@@ -1,0 +1,8 @@
+<div class="apg-cbox apg-cbox-wrapper">
+    <div class="row align-items-center">
+        {% assign ids = include.ids | split: "," %}
+        {% for curid in ids %}
+            {% include logo.html id=curid %}
+        {% endfor %}
+    </div>
+</div>

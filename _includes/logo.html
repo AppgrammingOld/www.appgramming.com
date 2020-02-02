@@ -1,0 +1,7 @@
+{%- assign id = include.id | strip -%}
+{% assign logo = site.data.logos | where: "id", id %}
+<div class="col-sm-6 col-md-4 col-lg-3 text-center apg-logo-wrapper">
+    <a href="{{ logo[0].link }}" target="_blank" rel="noopener">
+        <img class="img-fluid apg-logo" src="{{site.url}}/assets/images{{ logo[0].image }}" alt="{{ logo[0].alt }}" title="{{ logo[0].alt }}" />
+    </a>
+</div>

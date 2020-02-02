@@ -1,0 +1,10 @@
+<section class="row">
+    {% assign reviews = site.data.reviews[include.app] %}
+    {% for review in reviews %}
+        {%- assign source = review.source -%}
+        {%- assign link = review.link -%}
+        {%- assign quote = review.quote -%}
+        {%- assign boxindex = forloop.index0 | modulo: 5 | plus: 1 -%}
+        {% include cbox.html index=boxindex title=source link=link newtab=true content=quote %}
+    {% endfor %}
+</section>

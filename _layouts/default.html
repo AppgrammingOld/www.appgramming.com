@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    {% seo title=false %}
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | absolute_url }}">
+
+    {% if jekyll.environment == 'production' %}
+        {% include content/common/google-analytics.html %}
+    {% endif %}
+</head>
+
+<body>
+    <header class="apg-site-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="{{site.url}}/">
+                    <img src="{{site.url}}/assets/images/theme/branding/appgramming-header-logo.png" class="apg-header-logo" alt="Appgramming Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="{{site.url}}/lonecolor/windows/">LoneColor</a>
+                        <a class="nav-item nav-link" href="{{site.url}}/framedummy/windows/">FrameDummy</a>
+                        <a class="nav-item nav-link" href="{{site.url}}/support/">Support</a>
+                        <a class="nav-item nav-link" href="{{site.url}}/about/">About</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header> <!-- .apg-site-header -->
+
+    {{ content }}
+
+    <footer class="apg-site-footer">
+        <div class="container">
+            <div class="row text-center text-lg-left">
+                <div class="col-lg-3 mb-4">
+                    <a href="{{site.url}}/">
+                        <img class="img-fluid apg-site-footer-logo" src="{{site.url}}/assets/images/theme/branding/appgramming-footer-logo.png" alt="Appgramming Logo">
+                    </a>
+                </div>
+                <div class="col-lg-5 mb-4">
+                    <p><a href="{{site.url}}/about/privacy/">Privacy Policy</a><br />Copyright &copy; 2012-2019 Appgramming. <span class="d-block d-sm-inline d-lg-block d-xl-inline">All Rights Reserved.</span></p>
+                </div>
+                <div class="col-lg-4 mb-4 text-lg-right">
+                    <a href="https://www.facebook.com/Appgramming" target="_blank" rel="noopener" class="mr-2">
+                        <img height="40" src="{{site.url}}/assets/images/third/social/facebook.svg" alt="Facebook" title="Like us on Facebook" />
+                    </a>
+                    <a class="btn apg-btn-footer" href="{{site.url}}/support/">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer><!-- apg-site-footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

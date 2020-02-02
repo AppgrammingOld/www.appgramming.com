@@ -1,0 +1,259 @@
+---
+layout: info-page
+
+section-title: LoneColor
+section-url: /lonecolor/windows/
+page-title: Help
+
+title: "LoneColor for Windows Help"
+description: "Version 3.0 - Now you can copy any color code from any site, community, online tool or program, and click LoneColor to see it instantly fill your screen."
+---
+
+<h2 class="apg-page-title">Quick Start</h2>
+<div class="row">
+
+    {% include cbox.html index="1" title="Run from desktop"
+    content="<p>We recommend that you run LoneColor from a desktop shortcut to easily see its instant results. The installer program automatically creates this shortcut on your desktop.</p>" %}
+    
+    {% capture content %}
+    <img class="img-fluid" src="{{ site.url }}/assets/images/apps/lonecolor/windows/help/lonecolor-windows-help-desktop-shortcut.png">
+    {% endcapture %}
+    {% include cbox.html index="0" colclass="order-lg-1" class="p-md-0 text-center" content=content %}
+
+    {% include cbox.html index="2" title="Run as it is"
+    content="<p>When you run LoneColor as it is, by double-clicking its desktop shortcut, you will instantly get a random color desktop wallpaper. Keep double-clicking until satisfied with the result.</p>" %}
+
+    {% capture content %}
+    <img class="img-fluid" src="{{ site.url }}/assets/images/apps/lonecolor/windows/help/lonecolor-windows-help-run-random-color-wallpaper.png">
+    {% endcapture %}
+    {% include cbox.html index="0" colclass="order-lg-1" class="p-md-0 text-center" content=content %}
+
+    {% include cbox.html index="3" title="Rename and run"
+    content="<p>If you rename the LoneColor shortcut to <kbd>LoneColor Red</kbd> and double-click it, you will instantly get a Red wallpaper. You can use over one hundred <a href='#colorNames'>color names</a> that LoneColor understands.</p>" %}
+
+    {% capture content %}
+    <img class="img-fluid" src="{{ site.url }}/assets/images/apps/lonecolor/windows/help/lonecolor-windows-help-red-color-wallpaper.png">
+    {% endcapture %}
+    {% include cbox.html index="0" colclass="order-lg-1" class="p-md-0 text-center" content=content %}
+</div>
+
+<div class="row">
+    {% include cbox.html index="4" title="Use color codes"
+    content='<p>If you rename the LoneColor shortcut to <kbd>LoneColor #FF8200</kbd> and double-click it, you will instantly get a wallpaper filled with color #FF8200. Any <a href="http://htmlcolorcodes.com/" target="_blank" rel="noopener">hexadecimal color code</a> works.</p>' %}
+    
+    {% capture content %}
+    <img class="img-fluid" src="{{ site.url }}/assets/images/apps/lonecolor/windows/help/lonecolor-windows-help-color-code-wallpaper.png">
+    {% endcapture %}
+    {% include cbox.html index="0" colclass="order-lg-1" class="p-md-0 text-center" content=content %}
+    
+    {% include cbox.html index="5" title="Copy/paste"
+    content='<p>You can copy any color code from any site, community, online tool or software program, and double-click the unrenamed LoneColor shortcut to "paste" the color as your wallpaper.</p>' %}
+    
+    {% capture content %}
+    <img class="img-fluid" src="{{ site.url }}/assets/images/apps/lonecolor/windows/help/lonecolor-windows-help-copy-paste-color-wallpaper.png">
+    {% endcapture %}
+    {% include cbox.html index="0" colclass="order-lg-1" class="p-md-0 text-center" content=content %}
+
+    {% include cbox.html index="1" title="Restore wallpaper"
+    content="<p>To restore your old (photo) wallpaper, rename the LoneColor shortcut to <kbd>LoneColor C</kbd>, and double-click it to open Windows Background Settings, so you can easily undo changes.</p>" %}
+    
+    {% capture content %}
+    <img class="img-fluid" src="{{ site.url }}/assets/images/apps/lonecolor/windows/help/lonecolor-windows-help-restore-wallpaper.png">
+    {% endcapture %}
+    {% include cbox.html index="0" colclass="order-lg-1" class="p-md-0 text-center" content=content %}
+</div>
+
+<div class="apg-cbox apg-cbox-wrapper">
+    <p>When renaming a LoneColor shortcut, the main LoneColor executable file (yes, that works too), or when using the copy/paste feature, you can use the
+    following types of color values:</p>
+    <table class="table apg-table">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Shortcut name</th>
+                <th>Wallpaper color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Color names</th>
+                <td><kbd>LoneColor Red</kbd></td>
+                <td style="background: red;"></td>
+            </tr>
+            <tr>
+                <th scope="row">Hex triplets</th>
+                <td><kbd>LoneColor #FF8200</kbd></td>
+                <td style="background: #FF8200;"></td>
+            </tr>
+            <tr>
+                <th scope="row">RGB triplets</th>
+                <td><kbd>LoneColor 127, 0, 126</kbd></td>
+                <td style="background: rgb(127, 0, 126);"></td>
+            </tr>
+            <tr>
+                <th scope="row">Integer values</th>
+                <td><kbd>LoneColor 9110018</kbd></td>
+                <td style="background: #8b0202;"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 class="apg-page-title">Appendix: Color Names</h2>
+
+<div class="apg-cbox apg-cbox-wrapper">
+
+    <p id="colorNames">Here are the color names that LoneColor understands:</p>
+
+    <table class="table apg-table">
+        <thead>
+            <tr>
+                <th>Shortcut name</th>
+                <th>Color code</th>
+                <th>Wallpaper color</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% include var/color-row.html text="LoneColor AliceBlue"            color="F0F8FF" %}
+            {% include var/color-row.html text="LoneColor AntiqueWhite"         color="FAEBD7" %}
+            {% include var/color-row.html text="LoneColor Aqua"                 color="00FFFF" %}
+            {% include var/color-row.html text="LoneColor Aquamarine"           color="7FFFD4" %}
+            {% include var/color-row.html text="LoneColor Azure"                color="F0FFFF" %}
+            {% include var/color-row.html text="LoneColor Beige"                color="F5F5DC" %}
+            {% include var/color-row.html text="LoneColor Bisque"               color="FFE4C4" %}
+            {% include var/color-row.html text="LoneColor Black"                color="000000" %}
+            {% include var/color-row.html text="LoneColor BlanchedAlmond"       color="FFEBCD" %}
+            {% include var/color-row.html text="LoneColor Blue"                 color="0000FF" %}
+            {% include var/color-row.html text="LoneColor BlueViolet"           color="8A2BE2" %}
+            {% include var/color-row.html text="LoneColor Brown"                color="A52A2A" %}
+            {% include var/color-row.html text="LoneColor BurlyWood"            color="DEB887" %}
+            {% include var/color-row.html text="LoneColor CadetBlue"            color="5F9EA0" %}
+            {% include var/color-row.html text="LoneColor Chartreuse"           color="7FFF00" %}
+            {% include var/color-row.html text="LoneColor Chocolate"            color="D2691E" %}
+            {% include var/color-row.html text="LoneColor Coral"                color="FF7F50" %}
+            {% include var/color-row.html text="LoneColor CornflowerBlue"       color="6495ED" %}
+            {% include var/color-row.html text="LoneColor Cornsilk"             color="FFF8DC" %}
+            {% include var/color-row.html text="LoneColor Crimson"              color="DC143C" %}
+            {% include var/color-row.html text="LoneColor Cyan"                 color="00FFFF" %}
+            {% include var/color-row.html text="LoneColor DarkBlue"             color="00008B" %}
+            {% include var/color-row.html text="LoneColor DarkCyan"             color="008B8B" %}
+            {% include var/color-row.html text="LoneColor DarkGoldenrod"        color="B8860B" %}
+            {% include var/color-row.html text="LoneColor DarkGray"             color="A9A9A9" %}
+            {% include var/color-row.html text="LoneColor DarkGreen"            color="006400" %}
+            {% include var/color-row.html text="LoneColor DarkKhaki"            color="BDB76B" %}
+            {% include var/color-row.html text="LoneColor DarkMagenta"          color="8B008B" %}
+            {% include var/color-row.html text="LoneColor DarkOliveGreen"       color="556B2F" %}
+            {% include var/color-row.html text="LoneColor DarkOrange"           color="FF8C00" %}
+            {% include var/color-row.html text="LoneColor DarkOrchid"           color="9932CC" %}
+            {% include var/color-row.html text="LoneColor DarkRed"              color="8B0000" %}
+            {% include var/color-row.html text="LoneColor DarkSalmon"           color="E9967A" %}
+            {% include var/color-row.html text="LoneColor DarkSeaGreen"         color="8FBC8F" %}
+            {% include var/color-row.html text="LoneColor DarkSlateBlue"        color="483D8B" %}
+            {% include var/color-row.html text="LoneColor DarkSlateGray"        color="2F4F4F" %}
+            {% include var/color-row.html text="LoneColor DarkTurquoise"        color="00CED1" %}
+            {% include var/color-row.html text="LoneColor DarkViolet"           color="9400D3" %}
+            {% include var/color-row.html text="LoneColor DeepPink"             color="FF1493" %}
+            {% include var/color-row.html text="LoneColor DeepSkyBlue"          color="00BFFF" %}
+            {% include var/color-row.html text="LoneColor DimGray"              color="696969" %}
+            {% include var/color-row.html text="LoneColor DodgerBlue"           color="1E90FF" %}
+            {% include var/color-row.html text="LoneColor Firebrick"            color="B22222" %}
+            {% include var/color-row.html text="LoneColor FloralWhite"          color="FFFAF0" %}
+            {% include var/color-row.html text="LoneColor ForestGreen"          color="228B22" %}
+            {% include var/color-row.html text="LoneColor Fuchsia"              color="FF00FF" %}
+            {% include var/color-row.html text="LoneColor Gainsboro"            color="DCDCDC" %}
+            {% include var/color-row.html text="LoneColor GhostWhite"           color="F8F8FF" %}
+            {% include var/color-row.html text="LoneColor Gold"                 color="FFD700" %}
+            {% include var/color-row.html text="LoneColor Goldenrod"            color="DAA520" %}
+            {% include var/color-row.html text="LoneColor Gray"                 color="808080" %}
+            {% include var/color-row.html text="LoneColor Green"                color="008000" %}
+            {% include var/color-row.html text="LoneColor GreenYellow"          color="ADFF2F" %}
+            {% include var/color-row.html text="LoneColor Honeydew"             color="F0FFF0" %}
+            {% include var/color-row.html text="LoneColor HotPink"              color="FF69B4" %}
+            {% include var/color-row.html text="LoneColor IndianRed"            color="CD5C5C" %}
+            {% include var/color-row.html text="LoneColor Indigo"               color="4B0082" %}
+            {% include var/color-row.html text="LoneColor Ivory"                color="FFFFF0" %}
+            {% include var/color-row.html text="LoneColor Khaki"                color="F0E68C" %}
+            {% include var/color-row.html text="LoneColor Lavender"             color="E6E6FA" %}
+            {% include var/color-row.html text="LoneColor LavenderBlush"        color="FFF0F5" %}
+            {% include var/color-row.html text="LoneColor LawnGreen"            color="7CFC00" %}
+            {% include var/color-row.html text="LoneColor LemonChiffon"         color="FFFACD" %}
+            {% include var/color-row.html text="LoneColor LightBlue"            color="ADD8E6" %}
+            {% include var/color-row.html text="LoneColor LightCoral"           color="F08080" %}
+            {% include var/color-row.html text="LoneColor LightCyan"            color="E0FFFF" %}
+            {% include var/color-row.html text="LoneColor LightGoldenrodYellow" color="FAFAD2" %}
+            {% include var/color-row.html text="LoneColor LightGreen"           color="90EE90" %}
+            {% include var/color-row.html text="LoneColor LightGray"            color="D3D3D3" %}
+            {% include var/color-row.html text="LoneColor LightPink"            color="FFB6C1" %}
+            {% include var/color-row.html text="LoneColor LightSalmon"          color="FFA07A" %}
+            {% include var/color-row.html text="LoneColor LightSeaGreen"        color="20B2AA" %}
+            {% include var/color-row.html text="LoneColor LightSkyBlue"         color="87CEFA" %}
+            {% include var/color-row.html text="LoneColor LightSlateGray"       color="778899" %}
+            {% include var/color-row.html text="LoneColor LightSteelBlue"       color="B0C4DE" %}
+            {% include var/color-row.html text="LoneColor LightYellow"          color="FFFFE0" %}
+            {% include var/color-row.html text="LoneColor Lime"                 color="00FF00" %}
+            {% include var/color-row.html text="LoneColor LimeGreen"            color="32CD32" %}
+            {% include var/color-row.html text="LoneColor Linen"                color="FAF0E6" %}
+            {% include var/color-row.html text="LoneColor Magenta"              color="FF00FF" %}
+            {% include var/color-row.html text="LoneColor Maroon"               color="800000" %}
+            {% include var/color-row.html text="LoneColor MediumAquamarine"     color="66CDAA" %}
+            {% include var/color-row.html text="LoneColor MediumBlue"           color="0000CD" %}
+            {% include var/color-row.html text="LoneColor MediumOrchid"         color="BA55D3" %}
+            {% include var/color-row.html text="LoneColor MediumPurple"         color="9370DB" %}
+            {% include var/color-row.html text="LoneColor MediumSeaGreen"       color="3CB371" %}
+            {% include var/color-row.html text="LoneColor MediumSlateBlue"      color="7B68EE" %}
+            {% include var/color-row.html text="LoneColor MediumSpringGreen"    color="00FA9A" %}
+            {% include var/color-row.html text="LoneColor MediumTurquoise"      color="48D1CC" %}
+            {% include var/color-row.html text="LoneColor MediumVioletRed"      color="C71585" %}
+            {% include var/color-row.html text="LoneColor MidnightBlue"         color="191970" %}
+            {% include var/color-row.html text="LoneColor MintCream"            color="F5FFFA" %}
+            {% include var/color-row.html text="LoneColor MistyRose"            color="FFE4E1" %}
+            {% include var/color-row.html text="LoneColor Moccasin"             color="FFE4B5" %}
+            {% include var/color-row.html text="LoneColor NavajoWhite"          color="FFDEAD" %}
+            {% include var/color-row.html text="LoneColor Navy"                 color="000080" %}
+            {% include var/color-row.html text="LoneColor OldLace"              color="FDF5E6" %}
+            {% include var/color-row.html text="LoneColor Olive"                color="808000" %}
+            {% include var/color-row.html text="LoneColor OliveDrab"            color="6B8E23" %}
+            {% include var/color-row.html text="LoneColor Orange"               color="FFA500" %}
+            {% include var/color-row.html text="LoneColor OrangeRed"            color="FF4500" %}
+            {% include var/color-row.html text="LoneColor Orchid"               color="DA70D6" %}
+            {% include var/color-row.html text="LoneColor PaleGoldenrod"        color="EEE8AA" %}
+            {% include var/color-row.html text="LoneColor PaleGreen"            color="98FB98" %}
+            {% include var/color-row.html text="LoneColor PaleTurquoise"        color="AFEEEE" %}
+            {% include var/color-row.html text="LoneColor PaleVioletRed"        color="DB7093" %}
+            {% include var/color-row.html text="LoneColor PapayaWhip"           color="FFEFD5" %}
+            {% include var/color-row.html text="LoneColor PeachPuff"            color="FFDAB9" %}
+            {% include var/color-row.html text="LoneColor Peru"                 color="CD853F" %}
+            {% include var/color-row.html text="LoneColor Pink"                 color="FFC0CB" %}
+            {% include var/color-row.html text="LoneColor Plum"                 color="DDA0DD" %}
+            {% include var/color-row.html text="LoneColor PowderBlue"           color="B0E0E6" %}
+            {% include var/color-row.html text="LoneColor Purple"               color="800080" %}
+            {% include var/color-row.html text="LoneColor Red"                  color="FF0000" %}
+            {% include var/color-row.html text="LoneColor RosyBrown"            color="BC8F8F" %}
+            {% include var/color-row.html text="LoneColor RoyalBlue"            color="4169E1" %}
+            {% include var/color-row.html text="LoneColor SaddleBrown"          color="8B4513" %}
+            {% include var/color-row.html text="LoneColor Salmon"               color="FA8072" %}
+            {% include var/color-row.html text="LoneColor SandyBrown"           color="F4A460" %}
+            {% include var/color-row.html text="LoneColor SeaGreen"             color="2E8B57" %}
+            {% include var/color-row.html text="LoneColor SeaShell"             color="FFF5EE" %}
+            {% include var/color-row.html text="LoneColor Sienna"               color="A0522D" %}
+            {% include var/color-row.html text="LoneColor Silver"               color="C0C0C0" %}
+            {% include var/color-row.html text="LoneColor SkyBlue"              color="87CEEB" %}
+            {% include var/color-row.html text="LoneColor SlateBlue"            color="6A5ACD" %}
+            {% include var/color-row.html text="LoneColor SlateGray"            color="708090" %}
+            {% include var/color-row.html text="LoneColor Snow"                 color="FFFAFA" %}
+            {% include var/color-row.html text="LoneColor SpringGreen"          color="00FF7F" %}
+            {% include var/color-row.html text="LoneColor SteelBlue"            color="4682B4" %}
+            {% include var/color-row.html text="LoneColor Tan"                  color="D2B48C" %}
+            {% include var/color-row.html text="LoneColor Teal"                 color="008080" %}
+            {% include var/color-row.html text="LoneColor Thistle"              color="D8BFD8" %}
+            {% include var/color-row.html text="LoneColor Tomato"               color="FF6347" %}
+            {% include var/color-row.html text="LoneColor Turquoise"            color="40E0D0" %}
+            {% include var/color-row.html text="LoneColor Violet"               color="EE82EE" %}
+            {% include var/color-row.html text="LoneColor Wheat"                color="F5DEB3" %}
+            {% include var/color-row.html text="LoneColor White"                color="FFFFFF" %}
+            {% include var/color-row.html text="LoneColor WhiteSmoke"           color="F5F5F5" %}
+            {% include var/color-row.html text="LoneColor Yellow"               color="FFFF00" %}
+            {% include var/color-row.html text="LoneColor YellowGreen"          color="9ACD32" %}
+        </tbody>
+    </table>
+</div>

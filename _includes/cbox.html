@@ -1,0 +1,16 @@
+<div class="col-md-6 col-lg-4 apg-cbox-wrapper {% if include.colclass %}{{ include.colclass }}{% endif %}">
+    <div class="apg-cbox apg-cbox-{{ include.index }} {% if include.class %}{{ include.class }}{% endif %}">
+        {% if include.title %}
+            <h3 class="apg-cbox-title">
+                {% if include.link %}
+                    <a href="{{ include.link | absolute_url }}" {% if include.newtab %} target="_blank" rel="noopener" {% endif %}>
+                        {{ include.title }}
+                    </a>
+                {% else %}
+                    {{ include.title }}
+                {% endif %}
+            </h3>
+        {% endif %}
+        {{ include.content }}
+    </div>
+</div>

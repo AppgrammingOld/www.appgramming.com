@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% if page.jumbotron %}
+    {% include {{ page.jumbotron}} %}
+{% endif %}
+
+<main class="apg-site-main">
+    <div class="container">
+        {{ content }}
+    </div>
+</main> <!-- .apg-site-main -->
+
+

@@ -1,0 +1,41 @@
+---
+layout: info-page
+
+page-title: About Appgramming
+
+title: "About Appgramming"
+description: "Appgramming is the home of some tiny, simple, portable apps for PCs and mobile devices. All the apps are free for both home and commercial use."
+---
+
+<!-- About Appgramming Section -->
+<section class="row">
+    {% include cbox.html index="1" title="The Apps"
+    content="<p>Appgramming is the home of some tiny, simple, portable apps for PCs and mobile devices. All the apps are free for both home and commercial use. Free in the true sense of the word: no offers, no bundles.</p>" %}
+    {% include cbox.html index="2" title="The Mission"
+    content="<p>Appgramming tries to simplify and improve computing tasks using minimal design and a different approach. Appgramming is driven by a passion for programming even the smallest things.</p>" %}
+    {% capture the_content %}
+    <p>We are eager to hear what you think, and welcome any kind of feedback. Don't hesitate to send your comments, questions, suggestions, or problems. <a class="link" href="/support/">Click here</a> to send us a message with your thoughts.</p>
+    {% endcapture %}
+    {% include cbox.html index="3" title="Contact" content=the_content %}
+</section>
+
+<!-- Reviews and Awards Section -->
+<section>
+    <h2 class="apg-page-title">Reviews and Awards</h2>
+
+    {% include logos.html 
+        ids="software-informer-excellent-lonecolor-windows, webuser-lonecolor-windows, cnet-lonecolor-windows,
+        betanews-lonecolor, addictivetips-lonecolor-windows, giga-lonecolor-windows, pcadvisor-lonecolor,
+        techworld-lonecolor, softpedia-lonecolor-windows, softwarecrew-lonecolor, rockybytes-lonecolor-windows,
+        pcnet-lonecolor-windows, baixaki-lonecolor-windows, freeware-de-lonecolor-windows, globedia-lonecolor-windows,
+        ilovefreesoftware-lonecolor-windows" %}
+
+    <h2 class="apg-page-title">LoneColor for Windows</h2>
+    {% include reviews.html app="lonecolor-windows" %}
+
+    <h2 class="apg-page-title">LoneColor for Android</h2>
+    {% include reviews.html app="lonecolor-android" %}
+
+    <h2 class="apg-page-title">FrameDummy</h2>
+    {% include reviews.html app="framedummy-windows" %}
+</section>

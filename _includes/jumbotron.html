@@ -1,0 +1,34 @@
+<div class="apg-app-jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 apg-cbox-wrapper">
+                <div class="apg-cbox">
+                    <div>
+                        <h1 class="apg-app-jumbotron-title">
+                            <a class="apg-title-link apg-app-jumbotron-name" href="{{ include.link | absolute_url }}">
+                                {{ include.title }}
+                            </a> 
+                            {{ include.subtitle }}
+                        </h1>
+                        <p class="apg-app-jumbotron-text">
+                            {{ include.text }}
+                        </p>
+                        <p>
+                            <a class="btn btn-primary apg-btn-download" href="{{ include.download-link | absolute_url }}" role="button">
+                                {{ include.download-title }}
+                            </a>
+                        </p>
+                        <p>{{ include.extra }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-8 apg-cbox-wrapper">
+                <div class="apg-cbox apg-cbox-shot apg-app-{{ include.id }}">
+                    <a href="{{ include.link | absolute_url }}">
+                        <img class="img-fluid" src="{{site.url}}/assets/images{{ include.image }}" alt="{{ include.title }} {{ include.subtitle }}" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- .apg-app-jumbotron -->

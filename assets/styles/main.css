@@ -1,0 +1,508 @@
+---
+---
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+body {
+    font-family: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: red;
+}
+
+a:hover {
+    color: red;
+}
+
+/* a:focus, a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline-color: red;
+} */
+
+
+/* ==========================================================================
+   Site Header
+   ========================================================================== */
+
+.apg-site-header {
+	background: #f1f1f1 url("{{ '/assets/images/theme/backgrounds/header-texture.png' | absolute_url }}");
+	margin-bottom: 2px;
+	padding: 0.25rem;
+}
+
+.apg-site-header .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.apg-header-logo, .navbar-toggler {
+    height: 30px;
+}
+
+@media (min-width: 320px) {
+    .apg-header-logo, .navbar-toggler {
+        height: 50px;
+    }
+}
+
+@media (min-width: 576px) {
+    .apg-header-logo, .navbar-toggler {
+        height: 75px;
+    }
+}
+
+.navbar-toggler {
+    margin-top: .25rem;
+}
+
+.navbar-toggler:focus {
+    outline-color: black;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+}
+
+.navbar-nav .nav-link {
+	color: black;
+	font-size: 1.25rem;
+	font-weight: 700;
+	transition: background-color 500ms ease;
+    padding: 0.5em;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        margin-right: 1rem;
+    }
+}
+
+.navbar-nav .nav-item:hover, .navbar-nav .nav-item:focus {
+	background-color: black;
+	color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* ==========================================================================
+   Site Hero
+   ========================================================================== */
+
+/*
+ * App jumbotron
+*/
+
+.apg-app-jumbotron {
+    background-attachment: scroll, scroll;
+    background-color: #222222;
+    background-image: url("{{ '/assets/images/theme/backgrounds/hero-background.png' | absolute_url }}"), 
+                      url("{{ '/assets/images/theme/backgrounds/hero-texture.jpg' | absolute_url }}");
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: auto, auto;
+    color: #fff;
+    padding: 1.5rem 0 0 0;
+}
+
+.apg-app-jumbotron .apg-cbox {
+	background: #222 url("{{ '/assets/images/theme/backgrounds/hero-box-texture.jpg' | absolute_url }}") repeat;
+	border-color: #030303 #3c3c3c #3c3c3c #030303;
+	border-width: 1px 1px 2px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.apg-app-jumbotron-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+}
+
+.apg-app-jumbotron-name {
+    color: white;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.apg-app-jumbotron-text {
+    margin-bottom: 1.5rem;
+}
+
+.apg-cbox-shot {
+    text-align: center;
+}
+
+.apg-cbox-shot.apg-app-lonecolor-windows:hover, .apg-cbox-shot.apg-app-lonecolor-android:hover {
+    background: #7f007e;
+}
+
+.apg-cbox-shot.apg-app-framedummy-windows:hover {
+    background: #ff8200;
+}
+
+/*
+ * Info jumbotron
+*/
+
+.apg-info-jumbotron {
+    background-color: #222222;
+    background-image: url("{{ '/assets/images/theme/backgrounds/hero-texture.jpg' | absolute_url }}");
+}
+
+.apg-info-jumbotron-title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .apg-info-jumbotron-title {
+        text-align: left;
+    }
+}
+
+
+/* ==========================================================================
+   Site Content
+   ========================================================================== */
+
+.apg-site-main {
+	background-color: #e7e7e7;
+	background-image: url("{{ '/assets/images/theme/backgrounds/site-main-texture.png' | absolute_url }}");
+	padding: 1.5rem 0;
+}
+
+
+/* ==========================================================================
+   Site Footer
+   ========================================================================== */
+
+.apg-site-footer {
+	background-color: #c3c3c3;
+	background-image: url("{{ '/assets/images/theme/backgrounds/footer-texture.png' | absolute_url }}");
+	padding: 2rem 0;
+}
+
+.apg-site-footer-logo {
+	width: 192px;
+}
+
+
+/* ==========================================================================
+   Common Styles
+   ========================================================================== */
+
+/*
+ * Divisions
+*/
+
+.apg-eod {
+    margin-bottom: 3rem;
+}
+
+/*
+ * Titles
+ */
+
+ .apg-page-title {
+ 	background: #222 url("{{ '/assets/images/theme/backgrounds/hero-texture.jpg' | absolute_url }}");
+ 	border-bottom: 2px solid #3c3c3c;
+ 	border-left: 1px solid #030303;
+ 	border-right: 1px solid #3c3c3c;
+ 	border-top: 1px solid #030303;
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding: 0.33em 1em;
+}
+
+/*
+ * Links
+ */
+
+ .apg-link {
+     font-weight: bold;
+ }
+
+.apg-title-link, .apg-seamless-link {
+	color: white;
+}
+
+.apg-title-link:hover, .apg-title-link:focus {
+	text-decoration: none;
+}
+
+.apg-seamless-link:hover, .apg-seamless-link:focus {
+    color: white;
+	text-decoration: none;
+}
+
+/*
+ * Buttons
+ */
+
+.btn {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn:focus, .btn:hover {
+    color: #fff;
+}
+
+/* Primary buttons */
+
+.btn-primary {
+    background-color: red;
+    border-color: red;
+    font-size: 1.25rem;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #ff8200;
+    border-color: #ff8200;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 2px rgba(255, 130, 0, .5);
+}
+
+.btn-primary:active {
+    background-color: #ff8200;
+    border-color: #ff8200;
+}
+
+/* Secondary buttons */
+
+.btn-secondary {
+    background-color: #222222;
+    border-color: white;
+    font-size: 1.25rem;
+}
+
+.btn-secondary:focus, .btn-secondary:hover {
+    background-color: #383838;
+}
+
+/* Download buttons */
+
+.apg-btn-download {
+    background-repeat: no-repeat;
+    background-size: auto 17px;
+    background-position: 94% 50%;
+    padding-right: 2.5rem;
+}
+
+.apg-btn-download, .apg-btn-download:active {
+    background-image: url("{{ '/assets/images/theme/decoration/icon-down-arrow.png' | absolute_url }}");
+}
+
+/* Footer buttons */
+
+.apg-btn-footer {
+    background-color: #000;
+    border-radius: 0;
+    padding: .313rem 1rem;
+}
+
+.apg-btn-footer:focus, .apg-btn-footer:hover {
+    background-color: red;
+}
+
+.apg-btn-footer:focus {
+    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.5);
+}
+
+/*
+ * Tables
+ */
+
+.apg-table {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-x: auto;
+    table-layout: fixed;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .apg-table {
+        display: block;
+    }
+}
+
+/*
+ * Content Boxes
+ */
+
+.apg-cbox-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.apg-cbox {
+    background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.90);
+	border-color: #b3b3b3 white white #b3b3b3;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;
+    height: 100%;
+    padding: 2rem;
+    transition: background-color 500ms ease, color 0ms ease;
+}
+
+.apg-cbox-1:hover *, .apg-cbox-2:hover *, .apg-cbox-3:hover *, .apg-cbox-4:hover *, .apg-cbox-5:hover * {
+	color: #fff !important;
+}
+
+.apg-cbox-1:hover {
+    background: red;
+    color: #fff !important;
+}
+
+.apg-cbox-1 .apg-cbox-title {
+	color: red;
+}
+
+.apg-cbox-2:hover {
+    background: #ff4200;
+    color: #fff !important;
+}
+
+.apg-cbox-2 .apg-cbox-title {
+	color: #ff4200;
+}
+
+.apg-cbox-3:hover {
+    background: #ff8200;
+    color: #fff !important;
+}
+
+.apg-cbox-3 .apg-cbox-title {
+	color: #ff8200;
+}
+
+.apg-cbox-4:hover {
+    background: #7f007e;
+    color: #fff !important;
+}
+
+.apg-cbox-4 .apg-cbox-title {
+	color: #7f007e;
+}
+
+.apg-cbox-5:hover {
+    background: #8b0202;
+    color: #fff !important;
+}
+
+.apg-cbox-5 .apg-cbox-title {
+	color: #8b0202;
+}
+
+/*
+ * Special Content Boxes
+ */
+
+.apg-cbox-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+/*
+ * Content Box Headings and Text
+ */
+
+.apg-cbox-title {
+    font-size: 1.5rem;
+	font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.apg-cbox-title a {
+	color: inherit;
+}
+
+.apg-cbox-title a:focus, .apg-cbox-title a:hover {
+    text-decoration: none;
+}
+
+.content-box p:first-child {
+	margin-top: 0;
+}
+
+.apg-cbox p:last-child {
+	margin-bottom: 0;
+}
+
+/*
+ * Logos
+ */
+
+.apg-logo {
+    max-height: 80px;
+    max-width: 160px;
+}
+
+.apg-logo-lg {
+    max-height: 100px;
+    max-width: 200px;
+}
+
+
+/* ==========================================================================
+   Common Content
+   ========================================================================== */
+
+/*
+ * Logos Box
+*/
+
+.apg-logo-wrapper {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* ==========================================================================
+   Specific Content
+   ========================================================================== */
+
+/*
+ * Home Page
+*/
+
+.apg-home-carousel {
+    background-color: #222222;
+}
+
+.apg-home-carousel .apg-app-jumbotron {
+    width: 100%;
+}
+
+
+.font-size-1 {
+    font-size: 1rem;
+}
