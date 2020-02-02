@@ -1,7 +1,9 @@
 # www.appgramming.com
 The source code for the Appgramming website, built using [Jekyll](https://jekyllrb.com/).
 
-![Appgramming Website Screenshot](screenshot.png)
+<a href="screenshot.png">
+  <img src="screenshot.png" width="512" alt="Appgramming Website Screenshot">
+</a>
 
 ## About Appgramming
 
